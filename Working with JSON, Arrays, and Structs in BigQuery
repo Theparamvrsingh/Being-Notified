@@ -1,3 +1,5 @@
 curl -LO https://raw.githubusercontent.com/Namangoel1904/BeingNotified/main/GSP416.sh
+
 sudo chmod +x GSP416.sh
+
 ./GSP416.sh
