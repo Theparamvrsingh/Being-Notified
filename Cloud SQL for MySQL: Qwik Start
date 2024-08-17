@@ -1,3 +1,5 @@
+export ZONE=
+
 #!/bin/bash
 # Define color variables
 
