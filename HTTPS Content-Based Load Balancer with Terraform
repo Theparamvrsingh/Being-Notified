@@ -6,7 +6,7 @@ cd ~/terraform-google-lb-http/examples/multi-backend-multi-mig-bucket-https-lb
 
 rm -rf main.tf
 
-wget https://raw.githubusercontent.com/gcpsolution99/GCP-solution/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/main.tf
+wget https://raw.githubusercontent.com/Namangoel1904/Being-Notified/main/main.tf
 
 
 terraform init 
