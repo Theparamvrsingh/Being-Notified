@@ -1,2 +1,2 @@
 Download Excel file from here [Download](https://github.com/Namangoel1904/Being-Notified/blob/main/On%20the%20Rise%20Bakery%20Business%20Challenge.xlsx)
-Download ppt here [Download]()
+Download ppt here [Download](https://github.com/Namangoel1904/Being-Notified/blob/main/Staff%20Roles.pptx)
