@@ -4,7 +4,6 @@ Our First Step would be to **Generate a synthetic dataset** contains all the **p
 
 To Generate such database and to convert it into *Dataframe* we can use python Library `Pandas`, `numpy` and it's functions `np.random.randint`, `np.random.uniform`, `np.random.binomial` for random integers, random floating-point numbers, and for binary events respectively.
 Defining number of samples(n) to generate is a minor but importanat step.
-
 Which in our case is set to 1000, `n_samples = 1000` setting up a fine number of samples is important which would be visible at the time of model training.
 
 The Following code snippet shows **how we can generate the data** for column "wealth_score" by using numpy and .random function, defining the suitable range:
@@ -18,7 +17,8 @@ For Example: `prob_betrayal += (wealth_score <= 3) * 0.1` the snippet code shows
 In the similar manner we can define the probability distributions for other paramenters and set their weightage accordingly to generate a dataset **closer to actual picture**
 *Hit and Trial with fine tweeks is the key for the best sybthetic Dataset*
 
-Now once we are satisfied with the [Synthetic_Betrayal_Data](https://github.com/Namangoel1904/Being-Notified/blob/main/Innov8%202.0/synthetic_betrayal_data.csv) we can move to the **Preprocessing** of the data and **Model Building**
+Now once we are satisfied with the [Synthetic_Betrayal_Data](https://github.com/Namangoel1904/Being-Notified/blob/main/Innov8%202.0/synthetic_betrayal_data.csv) we can move to the 
+## **Preprocessing** of the data and **Model Building**
 Since there are **no missing values** in our dataset we **don't need to use any encoding methos** to fill those gaps.
 Out **dataset contains numerical values only** and so label encoding or count vectorization methods are also not required.
 Though we must **Standardize the numericals features as they are on different scale** and for that we can use `scaler = StandardScaler()` on our train dataset.
