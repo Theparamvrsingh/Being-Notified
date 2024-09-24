@@ -1,4 +1,4 @@
-#Synthetic Betrayal Prediction Dataset and ML Model#
+# Synthetic Betrayal Prediction Dataset and ML Model
 
 Our First Step would be to **Generate a synthetic dataset** contains all the **parameter** we proposed in the [PDF]() considering the theme of the problem statement which is to "Predict the Troop Betrayal in the War against the Phrygians".
 
