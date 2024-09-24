@@ -1,6 +1,6 @@
 # Synthetic Betrayal Prediction Dataset and ML Model
 
-Our First Step would be to **Generate a synthetic dataset** contains all the **parameter** we proposed in the [PDF]() considering the theme of the problem statement which is to "Predict the Troop Betrayal in the War against the Phrygians".
+Our <u>First Step</u> would be to **Generate a synthetic dataset** contains all the **parameter** we proposed in the [PDF]() considering the theme of the problem statement which is to "Predict the Troop Betrayal in the War against the Phrygians".
 
 To Generate such database and to convert it into *Dataframe* we can use python Library `Pandas`, `numpy` and it's functions `np.random.randint`, `np.random.uniform`, `np.random.binomial` for random integers, random floating-point numbers, and for binary events respectively.
 Defining number of samples(n) to generate is a minor but importanat step.
@@ -17,7 +17,7 @@ For Example: `prob_betrayal += (wealth_score <= 3) * 0.1` the snippet code shows
 In the similar manner we can define the probability distributions for other paramenters and set their weightage accordingly to generate a dataset **closer to actual picture**
 *Hit and Trial with fine tweeks is the key for the best sybthetic Dataset*
 
-Now once we are satisfied with the [Synthetic_Betrayal_Data](https://github.com/Namangoel1904/Being-Notified/blob/main/Innov8%202.0/synthetic_betrayal_data.csv) we can move to the 
+Now once we are satisfied with the [Synthetic_Betrayal_Data](https://github.com/Namangoel1904/Being-Notified/blob/main/Innov8%202.0/synthetic_betrayal_data.csv) we can move to
 ## **Preprocessing** of the data and **Model Building**
 Since there are **no missing values** in our dataset we **don't need to use any encoding methos** to fill those gaps.
 Out **dataset contains numerical values only** and so label encoding or count vectorization methods are also not required.
