@@ -1,6 +1,6 @@
 # Synthetic Betrayal Prediction Dataset and ML Model
 
-Our <u>First Step</u> would be to **Generate a synthetic dataset** contains all the **parameter** we proposed in the [PDF]() considering the theme of the problem statement which is to "Predict the Troop Betrayal in the War against the Phrygians".
+Our <u>First Step</u> would be to **Generate a synthetic dataset** contains all the **parameter** we proposed in the [PDF](https://github.com/Namangoel1904/Being-Notified/blob/f7d39834b9540c392cb4b8926aa29353a806b97e/Innov8%202.0/Part%202.pdf) considering the theme of the problem statement which is to "Predict the Troop Betrayal in the War against the Phrygians".
 
 To Generate such database and to convert it into *Dataframe* we can use python Library `Pandas`, `numpy` and it's functions `np.random.randint`, `np.random.uniform`, `np.random.binomial` for random integers, random floating-point numbers, and for binary events respectively.
 Defining number of samples(n) to generate is a minor but importanat step.
