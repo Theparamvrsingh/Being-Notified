@@ -1,6 +1,5 @@
 # Get Started with Google Workspace Tools: Challenge Lab || [GSP376] ||
 
-## Solution [here](https://youtu.be/t93hJjIYUWo)
 
 ### Task 1. Create your signature
 
