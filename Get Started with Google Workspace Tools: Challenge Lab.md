@@ -8,7 +8,7 @@
 
 2. In the `General` tab, scroll down to the `Signature` section and click `Create New`.
 
-3. Give this signature `quickgcplab` name, then click `Create`.
+3. Give this signature `BiengNotified` name, then click `Create`.
 
 4. In the Signature defaults section, use the dropdown menu under `For New Emails Use` and select `quickgcplab`.
 
