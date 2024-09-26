@@ -1,4 +1,4 @@
-# Get Started with Google Workspace Tools: Challenge Lab || [GSP376](https://www.cloudskillsboost.google/focuses/39167?parent=catalog) ||
+# Get Started with Google Workspace Tools: Challenge Lab || [GSP376] ||
 
 ## Solution [here](https://youtu.be/t93hJjIYUWo)
 
