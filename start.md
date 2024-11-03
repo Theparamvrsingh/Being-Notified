@@ -1,4 +1,4 @@
-## command one
+## First Command
 
 ```text
 
@@ -29,6 +29,9 @@ echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
 gcloud pubsub topics create projects/$DEVSHELL_PROJECT_ID/topics/export-findings-pubsub-topic
 gcloud pubsub subscriptions create export-findings-pubsub-topic-sub --topic=projects/$DEVSHELL_PROJECT_ID/topics/export-findings-pubsub-topic
 ```
+
+- Go to `Export to Pub/Sub` from [here](https://console.cloud.google.com/security/command-center/config/continuous-exports/pubsub)
+- For the continuous export name, enter in `export-findings-pubsub`.
 
 ## Second Command
 ```text
@@ -88,4 +91,28 @@ done
 ```text
 bq query --apilog=/dev/null --use_legacy_sql=false  \
 "SELECT finding_id,event_time,finding.category FROM continuous_export_dataset.findings"
+```
+
+- NOW FOLLOW VIDEO'S INSTRUCTIONS
+- Go to `Create a bucket` from [here](https://console.cloud.google.com/storage/create-bucket)
+- for BUCKET NAME type `scc-export-bucket-`YOUR_PROJECT_ID
+- Now go to `Export findings to Cloud Storage` from [here](https://console.cloud.google.com/security/command-center/export)
+- Set the filename to `findings.jsonl`
+- Go to `BigQuery Studio` from [here](https://console.cloud.google.com/bigquery)
+- Set the TABLE NAME to `old_findings`
+- Now paste in the following schema
+
+```text
+[   
+  {
+    "mode": "NULLABLE",
+    "name": "resource",
+    "type": "JSON"
+  },   
+  {
+    "mode": "NULLABLE",
+    "name": "finding",
+    "type": "JSON"
+  }
+]
 ```
