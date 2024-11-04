@@ -1,5 +1,5 @@
+## First Command
 ```text
-
 #!/bin/bash
 # Define color variables
 
@@ -82,6 +82,7 @@ echo "${YELLOW}${BOLD}NOW${RESET}" "${WHITE}${BOLD}FOLLOW${RESET}" "${GREEN}${BO
 ```
 - Reserve Static External IP address name static-ip
 
+##Second Command
 ```text
 
 #!/bin/bash
