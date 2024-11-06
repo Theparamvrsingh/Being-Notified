@@ -1,4 +1,7 @@
 ## Copy Paste the code
+```text
+export USERNAME_2=
+```
 
 ```text
 
