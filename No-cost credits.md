@@ -1,6 +1,6 @@
 # Open The Lab
 ```text 
-Right click [here](https://www.cloudskillsboost.google/catalog?keywords=GSP282&event=Your) and open the link in Incognito
+Right click (here)[https://www.cloudskillsboost.google/catalog?keywords=GSP282&event=Your] and open the link in Incognito
 ```
 
 # Access Code
