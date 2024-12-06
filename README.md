@@ -36,7 +36,7 @@ pip install fpdf2
 ## Steps to Run the Script
 - Step 1: Install Python, Ensure Python is installed on your system
 - Step 2: Install Required Dependencies
-- Ensure the script files (users.csv and repositories.csv) are available in the same directory or provide the full path to these files.
+- Ensure your dataset is saved as an Excel file (e.g., sales_data.xlsx) in the same directory as the script.
 - Run the Script:
 ```
 python kpi_dashboard.py
